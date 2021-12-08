@@ -1,3 +1,5 @@
+/*todo: light mode */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
   background-color: rgb(237,237,238);
 }
 
-.op {
+#op {
   background-color: #F59906 ;
 }
 
@@ -20,7 +22,7 @@ button {
   color: inherit;
   font-family: inherit;
   font-size: 21px;
-  height: 55px;
+  height: 60px;
   border-radius: 10px;
   border: none;
 }
@@ -34,17 +36,32 @@ button {
 .calc {
   width: 400px;
   border-radius: 30px;
-  background-color: #22252D;
+  background-color: #1a1c22;
 }
 
 .screen {
   height: 300px;
-  background:#22252D;
-  font-weight: 600;
-  font-size: 40px;
-  padding-left: 230px;
-  padding-top: 80px;
+  background:#1a1c22;
   border-radius: 30px;
+  padding-top: 185px;
+  padding-left: 210px;
+}
+
+.operation {
+  background: none;
+  font-size: 20px;
+  padding-left: 51px;
+  padding-bottom: 5px;
+}
+
+.result {
+  font-weight: 600;
+  font-size: 50px;
+  background: none;
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin-right: 30px;
 }
 
 .btn-grid {
@@ -66,3 +83,48 @@ button {
   color: #e7454b;
 }
 
+
+
+#operator {
+  background: inherit;
+  color: #e7454b;
+  padding: 10px;
+}
+
+#clear:hover {
+  cursor: pointer;
+  background: #26C3A9;
+  color: white;
+  transform: scale(1.1);
+  border-color: #26C3A9;
+  box-shadow: 0 0 1rem #6fb8ac;
+}
+
+#delete:hover {
+  cursor: pointer;
+  background: #e7454b;
+  color: white;
+  transform: scale(1.1);
+  border-color: #e7454b;
+  box-shadow: 0 0 1rem #e7454b;
+}
+
+#op:hover {
+  cursor: pointer;
+  background: #ffc600;
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #5a6377;
+  transform: scale(1.1);
+  border-color: #5a6377;
+  box-shadow: 0 0 1rem #7a87a1;
+}
+
+#num1, #num2 {
+  background: inherit;
+}

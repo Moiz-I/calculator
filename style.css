@@ -7,7 +7,7 @@
   background-color: rgb(237,237,238);
 }
 
-#op {
+.op {
   background-color: #F59906 ;
 }
 
@@ -109,7 +109,7 @@ button {
   box-shadow: 0 0 1rem #e7454b;
 }
 
-#op:hover {
+.op:hover {
   cursor: pointer;
   background: #ffc600;
   transform: scale(1.1);
